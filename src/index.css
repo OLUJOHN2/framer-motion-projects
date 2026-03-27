@@ -20,3 +20,8 @@ button {
 button:hover {
   background-color: rgba(0, 0, 0, 0.7);
 } */
+
+body {
+  background: #0d1017;
+  color: white;
+}

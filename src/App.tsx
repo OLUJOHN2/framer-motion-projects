@@ -7,6 +7,7 @@ import SidebarAnimation from "./components/SidebarAnimation";
 import ScrollAnimation from "./components/ScrollAnimation";
 import ScrollCarousel from "./components/horizontalanimation/ScrollCarousel";
 import StickyNav from "./components/sticky navbar/StickyNav";
+import ProgressSteps from "./components/ProgressSteps";
 
 const App = () => {
   return (
@@ -46,7 +47,9 @@ const App = () => {
 
       {/* <ScrollCarousel /> */}
 
-      <StickyNav />
+      {/* <StickyNav /> */}
+
+      <ProgressSteps />
     </div>
   );
 };
