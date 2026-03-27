@@ -2,13 +2,14 @@ import Loader from "./components/Loader";
 import ScrollIndicator from "./components/ScrollIndicator";
 
 import DraggableCard from "./components/DraggableCard";
+import Carousel from "./components/Carousel";
 
 const App = () => {
   return (
     <div>
       {/* <ScrollIndicator /> */}
       {/* <Loader /> */}
-      <div className="flex justify-center items-center h-[100vh] bg-[#f3f3f3]">
+      {/* <div className="flex justify-center items-center h-[100vh] bg-[#f3f3f3]">
         <DraggableCard
           style={{
             background: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -30,7 +31,9 @@ const App = () => {
         >
           Card 3
         </DraggableCard>
-      </div>
+      </div> */}
+
+      <Carousel />
     </div>
   );
 };
