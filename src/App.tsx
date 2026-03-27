@@ -5,6 +5,8 @@ import DraggableCard from "./components/DraggableCard";
 import Carousel from "./components/Carousel";
 import SidebarAnimation from "./components/SidebarAnimation";
 import ScrollAnimation from "./components/ScrollAnimation";
+import ScrollCarousel from "./components/horizontalanimation/ScrollCarousel";
+import StickyNav from "./components/sticky navbar/StickyNav";
 
 const App = () => {
   return (
@@ -40,7 +42,11 @@ const App = () => {
 
       {/* <SidebarAnimation /> */}
 
-      <ScrollAnimation />
+      {/* <ScrollAnimation /> */}
+
+      {/* <ScrollCarousel /> */}
+
+      <StickyNav />
     </div>
   );
 };
