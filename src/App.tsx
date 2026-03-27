@@ -3,10 +3,11 @@ import ScrollIndicator from "./components/ScrollIndicator";
 
 import DraggableCard from "./components/DraggableCard";
 import Carousel from "./components/Carousel";
+import SidebarAnimation from "./components/SidebarAnimation";
 
 const App = () => {
   return (
-    <div>
+    <div className="flex justify-center items-center h-screen w-full bg-gray-950">
       {/* <ScrollIndicator /> */}
       {/* <Loader /> */}
       {/* <div className="flex justify-center items-center h-[100vh] bg-[#f3f3f3]">
@@ -33,7 +34,9 @@ const App = () => {
         </DraggableCard>
       </div> */}
 
-      <Carousel />
+      {/* <Carousel /> */}
+
+      <SidebarAnimation />
     </div>
   );
 };
